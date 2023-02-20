@@ -15,4 +15,8 @@ const lastName = prompt('Last Name');
 
 console.log ('Last Name:',lastName);
 
+// initialize favColor variable from third user prompt
 
+const favColor = prompt('Favorite Color');
+
+console.log ('Favorite Color:',favColor);
