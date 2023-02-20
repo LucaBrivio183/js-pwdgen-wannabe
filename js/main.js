@@ -20,3 +20,11 @@ console.log ('Last Name:',lastName);
 const favColor = prompt('Favorite Color');
 
 console.log ('Favorite Color:',favColor);
+
+//show on screen generated super strong password
+
+document.querySelector('h1').innerHTML = `${firstName}${lastName}${favColor}89`
+
+console.log ('Super Strong Password:',`${firstName}${lastName}${favColor}89`);
+
+
